@@ -1,0 +1,6 @@
+app:
+  ingress:
+    enabled: true
+    hosts:
+      - dashboard.demo.com
+    ingressClassName: nginx
